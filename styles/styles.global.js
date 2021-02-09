@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     * {
@@ -10,9 +10,13 @@ export default createGlobalStyle`
     body {
         height: 100vh;
         width: 100%;
-        background: #212529;
-        color: #eee;
+        background: #f8f9fa;
+        color: #444;
         justify-content: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: "Poppins", sans-serif;
     }
-`
+    a, p, h1, h2, h3, button {
+        color: #444;
+        font-family: "Poppins", sans-serif;
+    }
+`;
